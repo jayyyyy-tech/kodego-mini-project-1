@@ -6,8 +6,13 @@ body {
   margin: 0;
 }
 
-section {
-  height: 100vh;
+section#home {
+  height: 90vh;
+  scroll-margin-top: 80px;
+}
+section#about,
+section#contact {
+  height: 90vh;
   scroll-margin-top: 80px;
 }
 section #home {
@@ -15,34 +20,43 @@ section #home {
 }
 .container-fluid img {
   height: 50px;
+  margin-right: 20px;
 }
-#home img {
+#home .logo {
   display: flex;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   height: auto;
   width: 200px;
 }
+#home .bg {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  height: 605px;
+  width: 320px;
+}
+
 section#about h2,
-section#services h2 {
+section#services h2,
+section#contact h2 {
   display: flex;
   text-align: center;
   justify-content: center;
   color: rgb(7, 7, 115);
 }
 section#about .abttext {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
-  padding: 20px;
+  margin-bottom: 50px;
 }
 section#services h5 .serv {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-section#contact form {
-  border: 2px solid black;
 }
 section#contact button {
   border: none;
@@ -50,7 +64,7 @@ section#contact button {
   margin-top: 2vh;
 }
 
-@media screen and (min-width: 425px) {
+@media only screen and (min-width: 600px) {
   #home img {
     display: flex;
     padding: 10px;
@@ -59,5 +73,50 @@ section#contact button {
     margin-top: 100px;
     height: auto;
     width: 400px;
+  }
+}
+section#about,
+section#contact {
+  height: 60vh;
+  scroll-margin-top: 80px;
+}
+section#about .abttext {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px;
+}
+section#contact .form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(10px);
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+@media only screen and (min-width: 769px) {
+  #home img {
+    display: flex;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: auto;
+    width: 400px;
+  }
+  section#about,
+  section#contact {
+    height: 65vh;
+    scroll-margin-top: 80px;
+  }
+
+  section#about .abttext {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }

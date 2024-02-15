@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New Project</title>
+    <link rel="stylesheet" href="./newprojwct.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,59 +13,174 @@
     />
   </head>
   <body>
-    <header class="navi">
-      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+    <header id="navi">
+      <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <img
             src="./416266275_3186915661605437_7424141780409312401_n.png"
             alt=""
           />
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <a class="offcanvas-title" id="offcanvasNavbarLabel">
-                <img
-                  src="./416266275_3186915661605437_7424141780409312401_n.png"
-                  alt=""
-                />
-              </a>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body bg-body-tertiary">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
-                    >Home</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div class="offcanvas-body bg-body-tertiary">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
+    <section id="services" class="padding border rounded pt-4 mt-5 mw-50">
+      <form class="form row g-3 p-4">
+        <div class="col-md-6">
+          <input
+            type="Text"
+            class="form-control"
+            id="inputText4"
+            placeholder="Name"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="Email"
+          />
+        </div>
+        <div class="col-12">
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="Address"
+          />
+        </div>
+        <div class="col-12">
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-12">
+          <input
+            type="number"
+            class="form-control"
+            id="inputNumber"
+            placeholder="Number"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity"
+            placeholder="City"
+          />
+        </div>
+
+        <div class="col-md-2">
+          <input
+            type="text"
+            class="form-control"
+            id="inputZip"
+            placeholder="Zip"
+          />
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Design works - Residential
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            Design works - Commercial
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault3"
+          />
+          <label class="form-check-label" for="flexRadioDefault3">
+            Installation works - Electrical
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault4"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault4">
+            Installation works - Plumbing
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault5"
+          />
+          <label class="form-check-label" for="flexRadioDefault5">
+            Renovation Works
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault6"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault6">
+            Repair works
+          </label>
+        </div>
+        <div class="form-check pt-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault7"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault7">
+            Other
+          </label>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
