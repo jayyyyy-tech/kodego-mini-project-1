@@ -5,17 +5,13 @@ body {
   border: 0;
   margin: 0;
 }
+section#hero {
+  height: 100vh;
+  margin-top: 5px;
+  margin: 20px;
+}
 .container-fluid img {
   display: flex;
   margin-right: 30px;
   height: 50px;
-}
-h2 {
-  text-align: center;
-}
-section#service .serv {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
