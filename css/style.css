@@ -4,6 +4,7 @@
 body {
   border: 0;
   margin: 0;
+  background-color: #e1e2ef;
 }
 
 section#home,
@@ -49,10 +50,9 @@ section#about .abttext {
   max-width: 300px;
   margin: auto;
 }
-#foot {
+footer {
   text-align: center;
-  padding: 5px 0 20px 0;
-  background-color: beige;
+  padding-bottom: 10px;
 }
 #foot p {
   font-size: 0.5rem;
@@ -84,10 +84,10 @@ section#about .abttext {
     max-width: 500px;
     margin: auto;
   }
-  #foot {
+  footer {
     text-align: center;
     padding: 5px 0 20px 0;
-    background: transparent;
+    background-color: #e1e2ef;
   }
   #foot p {
     font-size: 0.8rem;

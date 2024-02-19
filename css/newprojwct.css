@@ -22,3 +22,8 @@ section#services h3,
 p {
   text-align: center;
 }
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #e1e2ef;
+}

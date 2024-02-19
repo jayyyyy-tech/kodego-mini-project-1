@@ -6,12 +6,19 @@ body {
   margin: 0;
 }
 #hero {
-  height: 100vh;
-  margin-top: 5px;
   margin: 20px;
 }
 .container-fluid img {
   display: flex;
   margin-right: 30px;
   height: 50px;
+}
+#hero h3 {
+  text-align: center;
+  margin: 70px 0 20px 0;
+}
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #e1e2ef;
 }
