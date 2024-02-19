@@ -5,6 +5,10 @@ body {
   border: 0;
   margin: 0;
 }
+.container .navbar,
+.offcanvas-header {
+  background-color: #e1e2ef;
+}
 .container-fluid img {
   display: flex;
   margin-right: 30px;
@@ -25,5 +29,4 @@ p {
 footer {
   text-align: center;
   padding-bottom: 10px;
-  background-color: #e1e2ef;
 }

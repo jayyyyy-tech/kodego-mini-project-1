@@ -5,8 +5,10 @@ body {
   border: 0;
   margin: 0;
 }
-#hero {
-  margin: 20px;
+
+.container .navbar,
+.offcanvas-header {
+  background-color: #e1e2ef;
 }
 .container-fluid img {
   display: flex;
@@ -20,5 +22,4 @@ body {
 footer {
   text-align: center;
   padding-bottom: 10px;
-  background-color: #e1e2ef;
 }

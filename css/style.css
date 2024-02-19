@@ -4,9 +4,13 @@
 body {
   border: 0;
   margin: 0;
+}
+.container .navbar {
   background-color: #e1e2ef;
 }
-
+.container {
+  background-color: #fffcff;
+}
 section#home,
 section#about {
   height: 70vh;
@@ -56,7 +60,6 @@ footer {
 }
 #foot p {
   font-size: 0.5rem;
-  background: transparent;
 }
 
 @media only screen and (min-width: 450px) {
@@ -86,8 +89,7 @@ footer {
   }
   footer {
     text-align: center;
-    padding: 5px 0 20px 0;
-    background-color: #e1e2ef;
+    padding-bottom: 10px;
   }
   #foot p {
     font-size: 0.8rem;
@@ -129,11 +131,7 @@ footer {
     max-width: 700px;
     margin: auto;
   }
-}
-#foot {
-  background: transparent;
-}
-
-#foot p {
-  font-size: 1rem;
+  #foot p {
+    font-size: 1rem;
+  }
 }
