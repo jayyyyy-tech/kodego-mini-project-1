@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AKC</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/license.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,9 +12,9 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="container">
+  <body>
     <header class="navi">
-      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+      <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <img src="./image/AKC LOGO.png" alt="img" />
           <button
@@ -48,16 +48,14 @@
               <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                 <li class="nav-item">
                   <a
-                    class="nav-link disabled"
+                    class="nav-link"
                     aria-disabled="true"
                     aria-current="page"
-                    href="#home"
+                    href="./index.html"
                     >Home</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
+
                 <li class="nav-item">
                   <a class="nav-link" href="./service.html">Services</a>
                 </li>
@@ -81,7 +79,7 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./license.html">License</a>
+                      <a class="dropdown-item" href="./license.html">Licence</a>
                     </li>
                   </ul>
                 </li>
@@ -91,45 +89,47 @@
         </div>
       </nav>
     </header>
-    <main class="hero">
-      <section id="home">
-        <img class="logo" src="./image/AKC.png" alt="" />
-        <div class="bton d-grid col-12 col-xs-6 row-gap-5 mx-auto mt-5">
-          <a class="btn btn-primary" href="./newproject.html" role="button"
-            >New project</a
-          >
+    <main id="hero">
+      <h1>LICENSE</h1>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide mt-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/EE.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./image/ME.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./image/MP.jpg" class="d-block w-100" alt="..." />
+          </div>
         </div>
-      </section>
-      <section id="about">
-        <h2>About Us</h2>
-        <div class="abttext">
-          <p>
-            <b> AKC Engineering Service</b> is a partnership business that
-            started in mid-year 2023. With a multitude of inquiries, the owners
-            decided to take the opportunities to the next level and start a
-            partnership to cater to all the needs of the customers
-          </p>
-          <p>
-            <b> AKC Engineering Services </b> is committed to meeting our
-            customers' expectations with our services. Work with honesty,
-            integrity, and embracing changes in our field.
-          </p>
-          <p>
-            We provide an affordable, budget-friendly service fee for the
-            construction, installation, renovation, and home improvement needs
-            of the Filipino people
-          </p>
-        </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <img class="civil mt-5" src="./image/CE.jpg" alt="img" />
+        <h5>Certificate</h5>
+        <img class="cert" src="./image/CERT.jpg" alt="img" />
+      </div>
     </main>
-    <footer id="foot">
-      <p>&copy; copyright 2024</p>
-
-      <a class="icon" href="https://www.facebook.com/AKCengservices"
-        ><img
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZBJREFUSEvFlstRxDAMQLWdQCVAJ2wlQCVAJdAJ2wnMy8QZRZEl2QeiS3YT209/6yInyeUkrsyA70TkUUR43lbFeX6PGFEFA3kWkZfg8Ab/rCiRgStAq0tT4E155KBvBAb6tbp0xIttLQo89eA9MNCfGZrZA/zqub4HxlISKBMOJqYIv1H4wex1LffA72siZdCP1Rq7jiTkDC2HtRaMlVibCaVD/DzxwAeXW3DVWuKGFVpwc6txr+x2ylowCcXmTO5NtlZyAqvZt4gGV91s9/H/N9N0/U54lg6nwV5seudZT1XBW4j+G0w3e7UW86LXi3fxSdwaJahrcRTjEXCUoFtSaldHbXIEHMV749kk6ZUFYOLTxNYwidnEdi0dmS642kBmsnrXNu0B1VtpBrxrOt4lUannUfBWRl7nau+wGpdH1+II2E3MaBCIpo8qeHgQwHosp6HojO15yiuh6OpMx9vesJdZ3BsSttLKpkwddyxvY40HbmPQ0oszqYL1OXqQ14q14T5jLt9nwKWDs0Wngf8AqXJcH3pki+8AAAAASUVORK5CYII="
-      /></a>
-    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

@@ -10,3 +10,11 @@ body {
   margin-right: 30px;
   height: 50px;
 }
+#hero h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+#hero li {
+  text-align: center;
+  list-style: none;
+}

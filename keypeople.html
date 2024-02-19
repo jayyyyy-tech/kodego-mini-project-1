@@ -16,27 +16,92 @@
     <header class="navi">
       <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <img
-            src="./image/416266275_3186915661605437_7424141780409312401_n.png"
-            alt=""
-          />
-          <div class="offcanvas-body bg-body-tertiary">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
-                  >Home</a
-                >
-              </li>
-            </ul>
+          <img src="./image/AKC LOGO.png" alt="img" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <a class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="./image/AKC LOGO.png" alt="img" />
+              </a>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body bg-body-tertiary">
+              <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-disabled="true"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./project.html">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./keypeople.html"
+                        >Project Engineer</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./license.html">Licence</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
     </header>
     <section id="hero">
-      <img src="" alt="" />
+      <h2>AL KENNETH C. CAABAY</h2>
+      <ul>
+        <li>Registered Electrical Engineer</li>
+        <li>Registered Master Electrician</li>
+        <li>Registered Master Plumber</li>
+        <li>TESDA Certifies EIM NC-II</li>
+      </ul>
+      <h2>CHRISTINE GIE L. MAESTRO</h2>
+      <ul>
+        <li>Registered Licensed Civil Engineer</li>
+        <li>BOSH/COSH Certified</li>
+      </ul>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

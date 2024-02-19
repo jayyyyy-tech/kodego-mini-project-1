@@ -8,7 +8,7 @@ body {
 
 section#home,
 section#about {
-  height: 90vh;
+  height: 70vh;
   scroll-margin-top: 80px;
 }
 section#about {
@@ -27,9 +27,9 @@ section #home {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 200px;
   height: auto;
-  width: 200px;
+  width: 270px;
 }
 
 #home .btn {
@@ -56,6 +56,7 @@ section#about .abttext {
 }
 #foot p {
   font-size: 0.5rem;
+  background: transparent;
 }
 
 @media only screen and (min-width: 450px) {
@@ -64,11 +65,14 @@ section#about .abttext {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     height: auto;
     width: 500px;
   }
 
+  section#home {
+    height: 75vh;
+  }
   section#about {
     height: 60vh;
     scroll-margin-top: 80px;
@@ -83,7 +87,7 @@ section#about .abttext {
   #foot {
     text-align: center;
     padding: 5px 0 20px 0;
-    background-color: beige;
+    background: transparent;
   }
   #foot p {
     font-size: 0.8rem;
@@ -101,9 +105,12 @@ section#about .abttext {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     height: auto;
     width: 600px;
+  }
+  section#home {
+    height: 70vh;
   }
   #home .btn {
     max-width: 300px;
@@ -122,7 +129,11 @@ section#about .abttext {
     max-width: 700px;
     margin: auto;
   }
-  #foot p {
-    font-size: 1rem;
-  }
+}
+#foot {
+  background: transparent;
+}
+
+#foot p {
+  font-size: 1rem;
 }
