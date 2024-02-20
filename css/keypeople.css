@@ -28,8 +28,10 @@ body {
   text-align: center;
   list-style: none;
 }
+
 #hero .alk {
   display: flex;
+  position: absolute;
   width: 300px;
   height: auto;
   justify-content: end;
